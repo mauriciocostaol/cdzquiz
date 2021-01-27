@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizBackgound from '../src/components/QuizBackground';
-import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GithubCorner';
-
+import Widget from '../src/components/Widget'
+import QuizBackgound from '../src/components/QuizBackground'
+import Footer from '../src/components/Footer'
+import GitHubCorner from '../src/components/GithubCorner'
+import Head from 'next/head'
 // const BackgroundImage = styled.div` 
 // background-image: url(${db.bg});
 // flex: 1;
@@ -27,6 +27,9 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackgound backgroundImage ={db.bg}>
+      <Head>
+        <meta property="og:image" content={db.bg} key="CDZ" />
+      </Head>
       <QuizContainer>
         <Widget>
           <Widget.Header>
