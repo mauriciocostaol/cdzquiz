@@ -25,6 +25,13 @@ export const QuizContainer = styled.div`
   }
 `;
 
+export const TextBox = styled.input`
+width:18vw;
+height:5vh;
+border-radius:4px;
+border:none;
+`;
+
 export const Button = styled.button`
 background: #f57c00;
 color:#ffffff;
@@ -57,7 +64,7 @@ export default function Home() {
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <input
+              <TextBox
                 onChange={function (infosDoEvento) {
                   setName(infosDoEvento.target.value);
                 }}
