@@ -1,43 +1,88 @@
 {
-    "bg": "https://ultimatodobacon.com/wp-content/uploads/2019/07/CDZ-5-A.jpg",
-    "title": "Quiz dos Cavaleiros do Zodiaco do Maurício",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#01579b",
-        "secondary": "#fdd835",
-        "mainBg": "#171B35",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://ultimatodobacon.com/wp-content/uploads/2019/07/CDZ-5-A.jpg",
+  "title": "Quiz dos Cavaleiros do Zodiaco do Maurício",
+  "description": "Teste os seus conhecimentos sobre Cavaleiros do Zodiaco",
+  "questions": [
+    {
+      "image": "",
+      "title": "Qual o nome do autor da série Saint Seiya Cavaleiros do Zodíaco?",
+      "description": "Essa é pra aquecer",
+      "answer": 3,
+      "alternatives": [
+        "Akira Toriyama",
+        "Shingo Araki",
+        "Michi Himeno",
+        "Masami Kurumada",
+        "Nenhuma das anteriores"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Qual o personagem principal da série Cavaleiros do Zodíaco?",
+      "description": "Bora lá continua",
+      "answer": 1,
+      "alternatives": [
+        "Shiryu",
+        "Seiya",
+        "Hyoga",
+        "Ikki",
+        "Jabu"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": " Por que o torneio galáctico foi interrompido?",
+      "description": "Bora lá continua",
+      "answer": 2,
+      "alternatives": [
+        "Porque Saori Kido caiu em si e anulou o torneio.",
+        "Porque muitos cavaleiros morreram durante o torneio.",
+        "Porque apareceu o cavaleiro de fênix e roubou a armadura de sagitário.",
+        "Porque os cavaleiros não queriam mais combater.",
+        "Nenhuma das anteriores."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Qual o cavaleiro de ouro que tomava conta do selo dos 108 espectros de Hades e ganhou a técnica do Misopheta Menos?",
+      "description": "Bora lá continua",
+      "answer": 4,
+      "alternatives": [
+        "Shion de Áries",
+        "Camus de Aquário",
+        "Aiolos de Sagitário",
+        "Saga de Gêmeos",
+        "Dohko de Libra"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Que cavaleiro sempre vestia a armadura de sagitário quanto era exposto a situações de grande perigo?",
+      "description": "Essa é a última capricha",
+      "answer": 3,
+      "alternatives": [
+        "Ban de Leão",
+        "Jabu de Unicórnio",
+        "Ikki de Fênix",
+        "Seiya de Pégaso",
+        "Nachi de Lobo"
+      ]
     }
+  ],
+  "external": [
+    "https://got-quiz-next-js.matheus13f.vercel.app/",
+    "https://nextjsquiz.rafaelfachinelli.vercel.app/",
+    "https://mr-robot-quiz-alura.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#01579b",
+      "secondary": "#fdd835",
+      "mainBg": "#171B35",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
+}
